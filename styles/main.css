@@ -1,0 +1,60 @@
+#titleheader {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 5em;
+  margin-top: 1rem;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.fish-card {
+  flex-basis: 40%;
+  margin: 3em;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.fish-img {
+  width: 400px;
+  border-radius: 3em;
+}
+
+.piko-info {
+  padding-left: 1.25rem;
+}
+
+.info-text {
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+.piko-name {
+  font-family: "copperplate", fantasy;
+  font-size: 1.5em;
+}
+
+.tank-heading, .tank-tips, .locations-heading, #traveltips, .harvesting {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+/* .tank-heading, .tank-tips {
+    border: 0.5em aqua solid;
+    border-radius: 10em;
+    position: absolute;
+    width: 400px;
+    height: 500px; 
+    top: 30px;
+    right: 30px;
+} */
+
+.tank-heading, .tank-tips {
+  float: right;
+  width: 60%;
+  margin-right: 20px;
+}
